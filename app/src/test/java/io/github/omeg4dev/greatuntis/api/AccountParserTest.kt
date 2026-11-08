@@ -102,4 +102,18 @@ class AccountParserTest {
         assertNull(AccountParser.parse("   \n\t  "))
         assertNull(AccountParser.parse("foo: bar\nbaz: qux"))
     }
+
+    @Test
+    fun userinfoInUrlCannotRedirectTheLogin() {
+        val qr = "untis://setschool?url=https%3A%2F%2Fdemo.webuntis.com%40evil.example%2FWebUntis&school=demo-schule&user=Muster_Max_20080101&key=JBSWY3DPEHPK3PXP"
+        org.junit.Assert.assertEquals("evil.example", AccountParser.parse(qr)?.host)
+        val plain = "untis://setschool?url=demo.webuntis.com%40evil.example&school=demo-schule&user=Muster_Max_20080101&key=JBSWY3DPEHPK3PXP"
+        org.junit.Assert.assertEquals("evil.example", AccountParser.parse(plain)?.host)
+    }
+
+    @Test
+    fun hostWithInvalidCharactersIsRejected() {
+        val qr = "untis://setschool?url=demo.webuntis.com%5Cevil&school=demo-schule&user=Muster_Max_20080101&key=JBSWY3DPEHPK3PXP"
+        org.junit.Assert.assertNull(AccountParser.parse(qr))
+    }
 }

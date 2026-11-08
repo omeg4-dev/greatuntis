@@ -101,15 +101,20 @@ object AccountParser {
     }
 
     private fun extractHost(rawUrl: String): String {
-        var s = rawUrl.trim()
-        if (s.startsWith("http://", ignoreCase = true) || s.startsWith("https://", ignoreCase = true)) {
-            val withoutScheme = s.substringAfter("://")
-            val hostPart = withoutScheme.substringBefore('/').substringBefore('?').substringBefore(':')
-            return hostPart.trim()
+        val s = rawUrl.trim()
+        val withoutScheme = if (s.startsWith("http://", ignoreCase = true) || s.startsWith("https://", ignoreCase = true)) {
+            s.substringAfter("://")
+        } else {
+            s
         }
-        val hostPart = s.substringBefore('/').substringBefore('?').substringBefore(':')
-        return hostPart.trim()
+        val authority = withoutScheme.substringBefore('/').substringBefore('?').substringBefore('#')
+        // "school.webuntis.com@evil.example" would send the login to evil.example: drop RFC 3986 userinfo.
+        val hostPart = authority.substringAfterLast('@').substringBefore(':').trim()
+        // Plain DNS names only; anything else is treated as missing (→ parse returns null).
+        return if (HOST_REGEX.matches(hostPart)) hostPart.lowercase() else ""
     }
+
+    private val HOST_REGEX = Regex("^[A-Za-z0-9]([A-Za-z0-9-]*[A-Za-z0-9])?(\\.[A-Za-z0-9]([A-Za-z0-9-]*[A-Za-z0-9])?)*$")
 
     private fun buildAccount(
         host: String?,
