@@ -327,7 +327,13 @@ private fun WeekPageContent(
 
     val plans = remember(weekDates, dayMap, predictedDays, timeGrid, settings.foyerPrefix) {
         weekDates.map { date ->
-            val day = dayMap[date] ?: predictedDays[date] ?: Day(date, DayStatus.NO_DATA, emptyList())
+            // Days the school hasn't released yet come back as NOT_ALLOWED without lessons: show the prediction.
+            val fetched = dayMap[date]
+            val day = if (fetched == null || fetched.status == DayStatus.NOT_ALLOWED) {
+                predictedDays[date] ?: fetched ?: Day(date, DayStatus.NO_DATA, emptyList())
+            } else {
+                fetched
+            }
             DayAnalysis.analyze(day, timeGrid, settings.foyerPrefix)
         }
     }
