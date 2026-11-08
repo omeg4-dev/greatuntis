@@ -322,4 +322,13 @@ class ReleaseParserTest {
             ReleaseParser.parse(releaseJson(htmlUrl = "https://evil.example/phish"), repo)?.pageUrl,
         )
     }
+
+    @Test
+    fun dotSegmentsInApkUrlAreRejected() {
+        val repo = "omeg4-dev/greatuntis"
+        org.junit.Assert.assertFalse(ReleaseParser.isTrustedApkUrl("https://github.com/omeg4-dev/greatuntis/releases/download/v1/..", repo))
+        org.junit.Assert.assertFalse(ReleaseParser.isTrustedApkUrl("https://github.com/omeg4-dev/greatuntis/releases/download/../../evil/x.apk", repo))
+        org.junit.Assert.assertFalse(ReleaseParser.isTrustedApkUrl("https://github.com/omeg4-dev/greatuntis/releases/download/%2e%2e/x.apk", repo))
+        org.junit.Assert.assertTrue(ReleaseParser.isTrustedApkUrl("https://github.com/omeg4-dev/greatuntis/releases/download/v0.2.1/GreatUntis-0.2.1.apk", repo))
+    }
 }

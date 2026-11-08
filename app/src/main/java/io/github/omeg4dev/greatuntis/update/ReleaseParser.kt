@@ -66,8 +66,8 @@ object ReleaseParser {
             uri.host.equals("github.com", ignoreCase = true) &&
             uri.rawUserInfo == null &&
             (uri.port == -1 || uri.port == 443) &&
-            uri.path?.startsWith(pathPrefix, ignoreCase = true) == true &&
-            uri.path?.contains("/../") != true
+            uri.rawPath?.split('/')?.none { it == ".." || it == "." || it.contains("%2e", ignoreCase = true) } == true &&
+            uri.normalize().path?.startsWith(pathPrefix, ignoreCase = true) == true
     }
 
     private val headingRegex = Regex("""^#+\s*what['’]?s\s+new\b.*$""", RegexOption.IGNORE_CASE)

@@ -327,6 +327,12 @@ class UpdateControllerImpl(
         append: Boolean,
     ) {
         if (!response.request.url.isHttps) throw IOException("Update download left HTTPS")
+        val finalHost = response.request.url.host
+        if (!finalHost.equals("github.com", ignoreCase = true) &&
+            !finalHost.endsWith(".githubusercontent.com", ignoreCase = true)
+        ) {
+            throw IOException("Update download redirected to untrusted host: $finalHost")
+        }
         val body = response.body
         val limit = if (release.apkSize > 0) release.apkSize else ReleaseParser.MAX_APK_BYTES
         val announced = body.contentLength()
