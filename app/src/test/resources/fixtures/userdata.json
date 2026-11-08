@@ -1,0 +1,1422 @@
+{
+ "masterData": {
+  "timeStamp": 1793995289806,
+  "absenceReasons": [
+   {
+    "id": 65,
+    "name": "Absenz",
+    "longName": "Absenz",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 28,
+    "name": "Erkrankung",
+    "longName": "Erkrankung",
+    "active": true,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 31,
+    "name": "Arzttermin (EZB)",
+    "longName": "Arzttermin (Meldung durch Erziehungsberechtigte)",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 34,
+    "name": "Schultermin",
+    "longName": "Schultermin",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 36,
+    "name": "Verspätung",
+    "longName": "Verspätung",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 39,
+    "name": "Behandlung",
+    "longName": "Behandlung (längerfristige Abwesenheit ohne Zählung)",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 40,
+    "name": "Beurlaubung",
+    "longName": "Beurlaubung durch Klassen-, Abteilungs- oder Schulleitung",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 44,
+    "name": "Abwesend",
+    "longName": "Abwesend",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 48,
+    "name": "Erkrankt",
+    "longName": "Erkrankt (Meldung durch Lehrkräfte)",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 50,
+    "name": "Arzttermin",
+    "longName": "Arzttermin",
+    "active": true,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 57,
+    "name": "Abmeldung (Sek./KL)",
+    "longName": "Abmeldung im Laufe des Schultages via Sekretariat oder Klassenleitung",
+    "active": false,
+    "automaticNotificationEnabled": false
+   },
+   {
+    "id": 62,
+    "name": "Sport",
+    "longName": "Passive Teilnahme am Sportunterricht",
+    "active": false,
+    "automaticNotificationEnabled": false
+   }
+  ],
+  "excuseStatuses": [
+   {
+    "id": 1,
+    "name": "e",
+    "longName": "entschuldigt",
+    "excused": true,
+    "active": true
+   },
+   {
+    "id": 2,
+    "name": "UE",
+    "longName": "nicht entschuldigt",
+    "excused": false,
+    "active": true
+   },
+   {
+    "id": 3,
+    "name": "NA",
+    "longName": "nicht akzeptiert",
+    "excused": false,
+    "active": true
+   },
+   {
+    "id": 5,
+    "name": "NE",
+    "longName": "nicht entschuldbar",
+    "excused": false,
+    "active": true
+   },
+   {
+    "id": 8,
+    "name": "zählt nicht",
+    "longName": "zählt nicht",
+    "excused": true,
+    "active": true
+   }
+  ],
+  "holidays": [
+   {
+    "id": 190,
+    "name": "Herbst",
+    "longName": "Herbstferien",
+    "startDate": "2022-10-03",
+    "endDate": "2022-10-16"
+   },
+   {
+    "id": 195,
+    "name": "31.10.",
+    "longName": "31.10.2022",
+    "startDate": "2022-10-31",
+    "endDate": "2022-10-31"
+   },
+   {
+    "id": 200,
+    "name": "Weihnachten",
+    "longName": "Weihnachtsferien",
+    "startDate": "2022-12-26",
+    "endDate": "2023-01-08"
+   },
+   {
+    "id": 205,
+    "name": "Ostern",
+    "longName": "Osterferien",
+    "startDate": "2023-04-03",
+    "endDate": "2023-04-16"
+   },
+   {
+    "id": 210,
+    "name": "1.11.",
+    "longName": "Allerheiligen",
+    "startDate": "2022-11-01",
+    "endDate": "2022-11-01"
+   },
+   {
+    "id": 215,
+    "name": "23.12.",
+    "longName": "Weihnachtsferien",
+    "startDate": "2022-12-23",
+    "endDate": "2022-12-23"
+   },
+   {
+    "id": 220,
+    "name": "24.12.",
+    "longName": "Weihnachtsferien",
+    "startDate": "2022-12-24",
+    "endDate": "2022-12-24"
+   },
+   {
+    "id": 225,
+    "name": "25.12.",
+    "longName": "Weihnachtsferien",
+    "startDate": "2022-12-25",
+    "endDate": "2022-12-25"
+   },
+   {
+    "id": 230,
+    "name": "1.5.",
+    "longName": "Tag der Arbeit",
+    "startDate": "2023-05-01",
+    "endDate": "2023-05-01"
+   },
+   {
+    "id": 235,
+    "name": "18.5.",
+    "longName": "Chr. Himmelfahrt",
+    "startDate": "2023-05-18",
+    "endDate": "2023-05-18"
+   },
+   {
+    "id": 240,
+    "name": "29.5.",
+    "longName": "Pfingstmontag",
+    "startDate": "2023-05-29",
+    "endDate": "2023-05-29"
+   },
+   {
+    "id": 245,
+    "name": "8.6.",
+    "longName": "Fronleichnam",
+    "startDate": "2023-06-08",
+    "endDate": "2023-06-08"
+   },
+   {
+    "id": 246,
+    "name": "6.12.",
+    "longName": "6.12.2022",
+    "startDate": "2022-12-06",
+    "endDate": "2022-12-06"
+   },
+   {
+    "id": 251,
+    "name": "16.1.",
+    "longName": "16.1.2023",
+    "startDate": "2023-01-16",
+    "endDate": "2023-01-16"
+   },
+   {
+    "id": 256,
+    "name": "23.1.",
+    "longName": "23.1.2023",
+    "startDate": "2023-01-23",
+    "endDate": "2023-01-23"
+   },
+   {
+    "id": 258,
+    "name": "17.2.",
+    "longName": "17.2.2023",
+    "startDate": "2023-02-17",
+    "endDate": "2023-02-17"
+   },
+   {
+    "id": 263,
+    "name": "20.2.",
+    "longName": "20.2.2023",
+    "startDate": "2023-02-20",
+    "endDate": "2023-02-20"
+   },
+   {
+    "id": 268,
+    "name": "21.2.",
+    "longName": "21.2.2023",
+    "startDate": "2023-02-21",
+    "endDate": "2023-02-21"
+   },
+   {
+    "id": 270,
+    "name": "21.9.",
+    "longName": "21.9.2023",
+    "startDate": "2023-09-21",
+    "endDate": "2023-09-21"
+   },
+   {
+    "id": 273,
+    "name": "29.9.",
+    "longName": "29.9.2023",
+    "startDate": "2023-09-29",
+    "endDate": "2023-09-29"
+   },
+   {
+    "id": 275,
+    "name": "Allerheiligen",
+    "longName": "Allerheiligen",
+    "startDate": "2023-11-01",
+    "endDate": "2023-11-01"
+   },
+   {
+    "id": 278,
+    "name": "Christi Himmelfahrt",
+    "longName": "Christi Himmelfahrt",
+    "startDate": "2024-05-09",
+    "endDate": "2024-05-09"
+   },
+   {
+    "id": 281,
+    "name": "Fronleichnam",
+    "longName": "Fronleichnam",
+    "startDate": "2024-05-30",
+    "endDate": "2024-05-30"
+   },
+   {
+    "id": 284,
+    "name": "Heiligabend",
+    "longName": "Heiligabend",
+    "startDate": "2023-12-24",
+    "endDate": "2023-12-24"
+   },
+   {
+    "id": 287,
+    "name": "Herbstferien",
+    "longName": "Herbstferien",
+    "startDate": "2023-10-02",
+    "endDate": "2023-10-15"
+   },
+   {
+    "id": 290,
+    "name": "Osterferien",
+    "longName": "Osterferien",
+    "startDate": "2024-03-25",
+    "endDate": "2024-04-07"
+   },
+   {
+    "id": 293,
+    "name": "Pfingstdienstag",
+    "longName": "Pfingstdienstag",
+    "startDate": "2024-05-21",
+    "endDate": "2024-05-21"
+   },
+   {
+    "id": 296,
+    "name": "Pfingstmontag",
+    "longName": "Pfingstmontag",
+    "startDate": "2024-05-20",
+    "endDate": "2024-05-20"
+   },
+   {
+    "id": 299,
+    "name": "Tag der Arbeit",
+    "longName": "Tag der Arbeit",
+    "startDate": "2024-05-01",
+    "endDate": "2024-05-01"
+   },
+   {
+    "id": 302,
+    "name": "Weihnachtsferien",
+    "longName": "Weihnachtsferien",
+    "startDate": "2023-12-21",
+    "endDate": "2023-12-21"
+   },
+   {
+    "id": 305,
+    "name": "Weihnachtsferien_1",
+    "longName": "Weihnachtsferien",
+    "startDate": "2023-12-22",
+    "endDate": "2023-12-22"
+   },
+   {
+    "id": 308,
+    "name": "Weihnachtsferien_2",
+    "longName": "Weihnachtsferien",
+    "startDate": "2023-12-23",
+    "endDate": "2023-12-23"
+   },
+   {
+    "id": 311,
+    "name": "Weihnachtsferien_3",
+    "longName": "Weihnachtsferien",
+    "startDate": "2024-01-01",
+    "endDate": "2024-01-07"
+   },
+   {
+    "id": 313,
+    "name": "13.12.",
+    "longName": "13.12.2023",
+    "startDate": "2023-12-13",
+    "endDate": "2023-12-13"
+   },
+   {
+    "id": 315,
+    "name": "22.1.",
+    "longName": "22.1.2024",
+    "startDate": "2024-01-22",
+    "endDate": "2024-01-22"
+   },
+   {
+    "id": 318,
+    "name": "29.1.",
+    "longName": "29.1.2024",
+    "startDate": "2024-01-29",
+    "endDate": "2024-01-29"
+   },
+   {
+    "id": 320,
+    "name": "12.2.",
+    "longName": "Karneval",
+    "startDate": "2024-02-09",
+    "endDate": "2024-02-12"
+   },
+   {
+    "id": 323,
+    "name": "13.2.",
+    "longName": "13.2.2024",
+    "startDate": "2024-02-13",
+    "endDate": "2024-02-13"
+   },
+   {
+    "id": 326,
+    "name": "9.2.",
+    "longName": "9.2.2024",
+    "startDate": "2024-02-09",
+    "endDate": "2024-02-09"
+   },
+   {
+    "id": 329,
+    "name": "10.5.",
+    "longName": "10.5.2024",
+    "startDate": "2024-05-10",
+    "endDate": "2024-05-10"
+   },
+   {
+    "id": 332,
+    "name": "31.5.",
+    "longName": "31.5.2024",
+    "startDate": "2024-05-31",
+    "endDate": "2024-05-31"
+   },
+   {
+    "id": 334,
+    "name": "12.2._1",
+    "longName": "12.2.2024",
+    "startDate": "2024-02-12",
+    "endDate": "2024-02-12"
+   },
+   {
+    "id": 338,
+    "name": "Allerheiligen",
+    "longName": "Allerheiligen",
+    "startDate": "2024-11-01",
+    "endDate": "2024-11-01"
+   },
+   {
+    "id": 341,
+    "name": "Christi Himmelfahrt",
+    "longName": "Christi Himmelfahrt",
+    "startDate": "2025-05-29",
+    "endDate": "2025-05-29"
+   },
+   {
+    "id": 344,
+    "name": "Fronleichnam",
+    "longName": "Fronleichnam",
+    "startDate": "2025-06-19",
+    "endDate": "2025-06-19"
+   },
+   {
+    "id": 347,
+    "name": "Herbstferien",
+    "longName": "Herbstferien",
+    "startDate": "2024-10-14",
+    "endDate": "2024-10-27"
+   },
+   {
+    "id": 350,
+    "name": "Osterferien",
+    "longName": "Osterferien",
+    "startDate": "2025-04-14",
+    "endDate": "2025-04-27"
+   },
+   {
+    "id": 353,
+    "name": "Pfingstferien",
+    "longName": "Pfingstferien",
+    "startDate": "2025-06-10",
+    "endDate": "2025-06-10"
+   },
+   {
+    "id": 356,
+    "name": "Pfingstmontag",
+    "longName": "Pfingstmontag",
+    "startDate": "2025-06-09",
+    "endDate": "2025-06-09"
+   },
+   {
+    "id": 359,
+    "name": "Tag der Arbeit",
+    "longName": "Tag der Arbeit",
+    "startDate": "2025-05-01",
+    "endDate": "2025-05-01"
+   },
+   {
+    "id": 362,
+    "name": "Tag der Deutschen Ei",
+    "longName": "Tag der Deutschen Einheit",
+    "startDate": "2024-10-03",
+    "endDate": "2024-10-03"
+   },
+   {
+    "id": 365,
+    "name": "Weihnachtsferien",
+    "longName": "Weihnachtsferien",
+    "startDate": "2024-12-23",
+    "endDate": "2025-01-05"
+   },
+   {
+    "id": 368,
+    "name": "Weihnachtsferien_1",
+    "longName": "Weihnachtsferien",
+    "startDate": "2025-01-06",
+    "endDate": "2025-01-06"
+   },
+   {
+    "id": 371,
+    "name": "Ferien1",
+    "longName": "20.8.2024-20.8.2024",
+    "startDate": "2024-08-20",
+    "endDate": "2024-08-20"
+   },
+   {
+    "id": 374,
+    "name": "19.8.",
+    "longName": "19.8.2024",
+    "startDate": "2024-08-19",
+    "endDate": "2024-08-19"
+   },
+   {
+    "id": 375,
+    "name": "18.11.",
+    "longName": "18.11.2024",
+    "startDate": "2024-11-18",
+    "endDate": "2024-11-18"
+   },
+   {
+    "id": 378,
+    "name": "11.12.",
+    "longName": "11.12.2024",
+    "startDate": "2024-12-11",
+    "endDate": "2024-12-11"
+   },
+   {
+    "id": 380,
+    "name": "3.2.",
+    "longName": "3.2.2025",
+    "startDate": "2025-02-03",
+    "endDate": "2025-02-03"
+   },
+   {
+    "id": 383,
+    "name": "10.2.",
+    "longName": "10.2.2025",
+    "startDate": "2025-02-10",
+    "endDate": "2025-02-10"
+   },
+   {
+    "id": 384,
+    "name": "3.3.",
+    "longName": "3.3.2025",
+    "startDate": "2025-03-03",
+    "endDate": "2025-03-03"
+   },
+   {
+    "id": 387,
+    "name": "4.3.",
+    "longName": "4.3.2025",
+    "startDate": "2025-03-04",
+    "endDate": "2025-03-04"
+   },
+   {
+    "id": 390,
+    "name": "30.5.",
+    "longName": "30.5.2025",
+    "startDate": "2025-05-30",
+    "endDate": "2025-05-30"
+   },
+   {
+    "id": 393,
+    "name": "20.6.",
+    "longName": "20.6.2025",
+    "startDate": "2025-06-20",
+    "endDate": "2025-06-20"
+   },
+   {
+    "id": 394,
+    "name": "Christi Himmelfahrt",
+    "longName": "Christi Himmelfahrt",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-14"
+   },
+   {
+    "id": 397,
+    "name": "Fronleichnam",
+    "longName": "Fronleichnam",
+    "startDate": "2026-06-04",
+    "endDate": "2026-06-04"
+   },
+   {
+    "id": 400,
+    "name": "Herbstferien",
+    "longName": "Herbstferien",
+    "startDate": "2025-10-13",
+    "endDate": "2025-10-26"
+   },
+   {
+    "id": 403,
+    "name": "Osterferien",
+    "longName": "Osterferien",
+    "startDate": "2026-03-30",
+    "endDate": "2026-04-12"
+   },
+   {
+    "id": 406,
+    "name": "Pfingstferien",
+    "longName": "Pfingstferien",
+    "startDate": "2026-05-26",
+    "endDate": "2026-05-26"
+   },
+   {
+    "id": 409,
+    "name": "Pfingstmontag",
+    "longName": "Pfingstmontag",
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-25"
+   },
+   {
+    "id": 412,
+    "name": "Tag der Arbeit",
+    "longName": "Tag der Arbeit",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-01"
+   },
+   {
+    "id": 415,
+    "name": "Tag der Deutschen Ei",
+    "longName": "Tag der Deutschen Einheit",
+    "startDate": "2025-10-03",
+    "endDate": "2025-10-03"
+   },
+   {
+    "id": 418,
+    "name": "Weihnachtsferien",
+    "longName": "Weihnachtsferien",
+    "startDate": "2025-12-22",
+    "endDate": "2026-01-04"
+   },
+   {
+    "id": 421,
+    "name": "Weihnachtsferien_1",
+    "longName": "Weihnachtsferien",
+    "startDate": "2026-01-05",
+    "endDate": "2026-01-05"
+   },
+   {
+    "id": 424,
+    "name": "Weihnachtsferien_2",
+    "longName": "Weihnachtsferien",
+    "startDate": "2026-01-06",
+    "endDate": "2026-01-06"
+   },
+   {
+    "id": 427,
+    "name": "Ferien1",
+    "longName": "16.2.2026-16.2.2026",
+    "startDate": "2026-02-16",
+    "endDate": "2026-02-17"
+   },
+   {
+    "id": 430,
+    "name": "Ferien2",
+    "longName": "15.5.2026-15.5.2026",
+    "startDate": "2026-05-15",
+    "endDate": "2026-05-15"
+   },
+   {
+    "id": 432,
+    "name": "Ferien3",
+    "longName": "Sommerferien",
+    "startDate": "2025-08-26",
+    "endDate": "2025-08-26"
+   },
+   {
+    "id": 435,
+    "name": "25.8.",
+    "longName": "Sommferferien",
+    "startDate": "2025-08-25",
+    "endDate": "2025-08-25"
+   }
+  ],
+  "rooms": [
+   {
+    "id": 3,
+    "name": "R101",
+    "longName": "Raum R101",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 5,
+    "name": "R102",
+    "longName": "Raum R102",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 95,
+    "name": "R103",
+    "longName": "Raum R103",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 13,
+    "name": "R104",
+    "longName": "Raum R104",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 15,
+    "name": "R105",
+    "longName": "Raum R105",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 37,
+    "name": "R106",
+    "longName": "Raum R106",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 44,
+    "name": "R107",
+    "longName": "Raum R107",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 48,
+    "name": "R108",
+    "longName": "Raum R108",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 49,
+    "name": "R109",
+    "longName": "Raum R109",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 50,
+    "name": "R110",
+    "longName": "Raum R110",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 56,
+    "name": "R111",
+    "longName": "Raum R111",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 58,
+    "name": "R112",
+    "longName": "Raum R112",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 60,
+    "name": "R113",
+    "longName": "Raum R113",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 65,
+    "name": "R114",
+    "longName": "Raum R114",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 71,
+    "name": "R115",
+    "longName": "Raum R115",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 72,
+    "name": "R116",
+    "longName": "Raum R116",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 74,
+    "name": "R117",
+    "longName": "Raum R117",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 75,
+    "name": "R118",
+    "longName": "Raum R118",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 76,
+    "name": "R119",
+    "longName": "Raum R119",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 78,
+    "name": "R120",
+    "longName": "Raum R120",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 80,
+    "name": "R121",
+    "longName": "Raum R121",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 81,
+    "name": "R122",
+    "longName": "Raum R122",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 82,
+    "name": "R123",
+    "longName": "Raum R123",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 83,
+    "name": "R124",
+    "longName": "Raum R124",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 84,
+    "name": "Aula",
+    "longName": "Aula",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 230,
+    "name": "Foyer",
+    "longName": "Foyer",
+    "departmentId": 0,
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 89,
+    "name": "R125",
+    "longName": "Raum R125",
+    "departmentId": 0,
+    "foreColor": "#000000",
+    "backColor": "#ff80ff",
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 91,
+    "name": "R126",
+    "longName": "Raum R126",
+    "departmentId": 0,
+    "foreColor": "#000000",
+    "backColor": "#ff80ff",
+    "active": true,
+    "displayAllowed": false
+   }
+  ],
+  "subjects": [
+   {
+    "id": 400,
+    "name": "KR-GK4",
+    "longName": "Kath. Religion GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 456,
+    "name": "PH-GK4",
+    "longName": "Physik GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 500,
+    "name": "PKI-GK1",
+    "longName": "PKI GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 505,
+    "name": "PKI-GK2",
+    "longName": "PKI GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 510,
+    "name": "PKI-GK3",
+    "longName": "PKI GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 600,
+    "name": "M-GK1",
+    "longName": "Mathematik GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 623,
+    "name": "M-LK1",
+    "longName": "Mathematik LK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 658,
+    "name": "KU-LK1",
+    "longName": "Kunst LK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 678,
+    "name": "GE-GK2",
+    "longName": "Geschichte GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 688,
+    "name": "SW-GK1",
+    "longName": "Sozialwissenschaften GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 813,
+    "name": "SP-LK2",
+    "longName": "Sport LK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 878,
+    "name": "IF-GK1",
+    "longName": "Informatik GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 1577,
+    "name": "E-PJK1",
+    "longName": "Englisch PJK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 983,
+    "name": "D-GK1",
+    "longName": "Deutsch GK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   },
+   {
+    "id": 1078,
+    "name": "EK-ZK1",
+    "longName": "Erdkunde ZK",
+    "departmentIds": [],
+    "foreColor": null,
+    "backColor": null,
+    "active": true,
+    "displayAllowed": false
+   }
+  ],
+  "schoolyears": [
+   {
+    "id": 13,
+    "name": "2022/2023",
+    "startDate": "2022-08-08",
+    "endDate": "2023-06-25"
+   },
+   {
+    "id": 14,
+    "name": "2023/2024",
+    "startDate": "2023-08-07",
+    "endDate": "2024-07-07"
+   },
+   {
+    "id": 20,
+    "name": "2024/2025",
+    "startDate": "2024-08-19",
+    "endDate": "2025-07-11"
+   },
+   {
+    "id": 22,
+    "name": "2025/2026",
+    "startDate": "2025-08-25",
+    "endDate": "2026-07-19"
+   },
+   {
+    "id": 23,
+    "name": "2026/2027",
+    "startDate": "2026-08-31",
+    "endDate": "2027-07-18"
+   }
+  ],
+  "timeGrid": {
+   "days": [
+    {
+     "day": "MON",
+     "units": [
+      {
+       "label": "",
+       "startTime": "T08:00",
+       "endTime": "T08:45"
+      },
+      {
+       "label": "",
+       "startTime": "T08:50",
+       "endTime": "T09:35"
+      },
+      {
+       "label": "",
+       "startTime": "T09:55",
+       "endTime": "T10:40"
+      },
+      {
+       "label": "",
+       "startTime": "T10:45",
+       "endTime": "T11:30"
+      },
+      {
+       "label": "",
+       "startTime": "T11:45",
+       "endTime": "T12:30"
+      },
+      {
+       "label": "",
+       "startTime": "T12:35",
+       "endTime": "T13:20"
+      },
+      {
+       "label": "",
+       "startTime": "T13:30",
+       "endTime": "T14:15"
+      },
+      {
+       "label": "",
+       "startTime": "T14:15",
+       "endTime": "T15:00"
+      },
+      {
+       "label": "",
+       "startTime": "T15:00",
+       "endTime": "T15:45"
+      }
+     ]
+    },
+    {
+     "day": "TUE",
+     "units": [
+      {
+       "label": "",
+       "startTime": "T08:00",
+       "endTime": "T08:45"
+      },
+      {
+       "label": "",
+       "startTime": "T08:50",
+       "endTime": "T09:35"
+      },
+      {
+       "label": "",
+       "startTime": "T09:55",
+       "endTime": "T10:40"
+      },
+      {
+       "label": "",
+       "startTime": "T10:45",
+       "endTime": "T11:30"
+      },
+      {
+       "label": "",
+       "startTime": "T11:45",
+       "endTime": "T12:30"
+      },
+      {
+       "label": "",
+       "startTime": "T12:35",
+       "endTime": "T13:20"
+      },
+      {
+       "label": "",
+       "startTime": "T13:30",
+       "endTime": "T14:15"
+      },
+      {
+       "label": "",
+       "startTime": "T14:15",
+       "endTime": "T15:00"
+      },
+      {
+       "label": "",
+       "startTime": "T15:00",
+       "endTime": "T15:45"
+      }
+     ]
+    },
+    {
+     "day": "WED",
+     "units": [
+      {
+       "label": "",
+       "startTime": "T08:00",
+       "endTime": "T08:45"
+      },
+      {
+       "label": "",
+       "startTime": "T08:50",
+       "endTime": "T09:35"
+      },
+      {
+       "label": "",
+       "startTime": "T09:55",
+       "endTime": "T10:40"
+      },
+      {
+       "label": "",
+       "startTime": "T10:45",
+       "endTime": "T11:30"
+      },
+      {
+       "label": "",
+       "startTime": "T11:45",
+       "endTime": "T12:30"
+      },
+      {
+       "label": "",
+       "startTime": "T12:35",
+       "endTime": "T13:20"
+      },
+      {
+       "label": "",
+       "startTime": "T13:30",
+       "endTime": "T14:15"
+      },
+      {
+       "label": "",
+       "startTime": "T14:15",
+       "endTime": "T15:00"
+      },
+      {
+       "label": "",
+       "startTime": "T15:00",
+       "endTime": "T15:45"
+      }
+     ]
+    },
+    {
+     "day": "THU",
+     "units": [
+      {
+       "label": "",
+       "startTime": "T08:00",
+       "endTime": "T08:45"
+      },
+      {
+       "label": "",
+       "startTime": "T08:50",
+       "endTime": "T09:35"
+      },
+      {
+       "label": "",
+       "startTime": "T09:55",
+       "endTime": "T10:40"
+      },
+      {
+       "label": "",
+       "startTime": "T10:45",
+       "endTime": "T11:30"
+      },
+      {
+       "label": "",
+       "startTime": "T11:45",
+       "endTime": "T12:30"
+      },
+      {
+       "label": "",
+       "startTime": "T12:35",
+       "endTime": "T13:20"
+      },
+      {
+       "label": "",
+       "startTime": "T13:30",
+       "endTime": "T14:15"
+      },
+      {
+       "label": "",
+       "startTime": "T14:15",
+       "endTime": "T15:00"
+      },
+      {
+       "label": "",
+       "startTime": "T15:00",
+       "endTime": "T15:45"
+      }
+     ]
+    },
+    {
+     "day": "FRI",
+     "units": [
+      {
+       "label": "",
+       "startTime": "T08:00",
+       "endTime": "T08:45"
+      },
+      {
+       "label": "",
+       "startTime": "T08:50",
+       "endTime": "T09:35"
+      },
+      {
+       "label": "",
+       "startTime": "T09:55",
+       "endTime": "T10:40"
+      },
+      {
+       "label": "",
+       "startTime": "T10:45",
+       "endTime": "T11:30"
+      },
+      {
+       "label": "",
+       "startTime": "T11:45",
+       "endTime": "T12:30"
+      },
+      {
+       "label": "",
+       "startTime": "T12:35",
+       "endTime": "T13:20"
+      },
+      {
+       "label": "",
+       "startTime": "T13:30",
+       "endTime": "T14:15"
+      },
+      {
+       "label": "",
+       "startTime": "T14:15",
+       "endTime": "T15:00"
+      },
+      {
+       "label": "",
+       "startTime": "T15:00",
+       "endTime": "T15:45"
+      }
+     ]
+    }
+   ]
+  },
+  "teachers": [],
+  "klassen": []
+ },
+ "userData": {
+  "elemType": "STUDENT",
+  "elemId": 1,
+  "displayName": "Student",
+  "schoolName": "Musterschule Beispielstadt",
+  "departmentId": 0,
+  "children": [],
+  "klassenIds": [],
+  "rights": [
+   "CLASSREGISTER",
+   "R_MY_ABSENCES"
+  ]
+ },
+ "settings": {
+  "showAbsenceReason": true,
+  "showAbsenceText": true,
+  "absenceCheckRequired": true,
+  "defaultAbsenceReasonId": 44,
+  "defaultLatenessReasonId": 36,
+  "defaultAbsenceEndTime": "END_OF_PERIOD",
+  "customAbsenceEndTime": null,
+  "showCalendarDetails": false,
+  "defaultAbsenceExcuseStatusId": 0
+ }
+}

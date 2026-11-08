@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GreatUntis</string>
+
+    <!-- Navigation tabs -->
+    <string name="nav_today">Heute</string>
+    <string name="nav_week">Woche</string>
+    <string name="nav_free">Frei</string>
+    <string name="nav_absences">Fehlzeiten</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <!-- Sync chip -->
+    <string name="sync_updated">Aktualisiert %1$s</string>
+    <string name="sync_syncing">Aktualisiere…</string>
+    <string name="sync_offline">Offline – Stand %1$s</string>
+    <string name="sync_auth_error">Anmeldung fehlgeschlagen</string>
+    <string name="sync_error">Fehler bei der Synchronisation</string>
+
+    <!-- Heute screen -->
+    <string name="today_header">Heute · %1$s</string>
+    <string name="today_button">Heute</string>
+    <string name="next_lesson_now">Jetzt: %1$s · %2$s · bis %3$s</string>
+    <string name="next_lesson_upcoming">%1$s · %2$s · %3$s (in %4$d min)</string>
+    <string name="badge_cancelled">Entfall</string>
+    <string name="badge_foyer">Foyer</string>
+    <string name="badge_room">Raum</string>
+    <string name="badge_substitution">Vertretung</string>
+    <string name="badge_exam">Klausur</string>
+    <string name="badge_additional">Zusatz</string>
+    <string name="teacher_none">ohne Lehrkraft</string>
+    <string name="room_foyer">Foyer</string>
+    <string name="room_to_foyer">Raum %1$s → Foyer</string>
+    <string name="free_period">Freistunde · %1$s–%2$s</string>
+    <string name="free_periods">Freistunden · %1$s–%2$s</string>
+    <string name="no_lessons">Kein Unterricht</string>
+    <string name="reason_vacation">Ferien</string>
+    <string name="reason_weekend">Wochenende</string>
+    <string name="reason_not_allowed">Noch nicht freigegeben</string>
+
+    <!-- Woche screen -->
+    <string name="label_prediction">Prognose</string>
+    <string name="prev_week">Vorherige Woche</string>
+    <string name="next_week">Nächste Woche</string>
+
+    <!-- Fehlzeiten screen -->
+    <plurals name="absences_open_count">
+        <item quantity="one">%1$d Fehlzeit noch nicht entschuldigt</item>
+        <item quantity="other">%1$d Fehlzeiten noch nicht entschuldigt</item>
+    </plurals>
+    <plurals name="absence_open_days">
+        <item quantity="one">seit %1$d Tag offen</item>
+        <item quantity="other">seit %1$d Tagen offen</item>
+    </plurals>
+    <string name="kpi_missed_units">Fehlstunden</string>
+    <string name="kpi_missed_days">Fehltage</string>
+    <string name="kpi_quote">Quote</string>
+    <string name="kpi_lateness">Verspätungen</string>
+    <string name="kpi_lateness_total">%1$d min gesamt</string>
+    <string name="section_excuses">Entschuldigung</string>
+    <string name="category_excused">Entschuldigt</string>
+    <string name="category_unexcused">Unentschuldigt</string>
+    <string name="category_not_counted">Zählt nicht</string>
+    <string name="category_open">Offen</string>
+    <string name="section_by_subject">Nach Fach</string>
+    <string name="section_trend">Verlauf</string>
+    <string name="section_weekdays">Wochentage</string>
+    <string name="section_periods">Stunden</string>
+    <string name="section_cancelled_foyer">Entfall &amp; Foyer</string>
+    <string name="kpi_cancelled_units">Entfallene Stunden</string>
+    <string name="kpi_foyer_units">Foyer-Stunden</string>
+    <string name="units_count">%1$d Std.</string>
+    <string name="section_all_absences">Alle Fehlzeiten</string>
+    <string name="calendar_week_prefix">KW %1$d</string>
+
+    <!-- Onboarding screen -->
+    <string name="pitch">Dein Stundenplan. Sofort Bescheid, wenn etwas ausfällt.</string>
+    <string name="onboarding_explainer">Den QR-Code findest du in WebUntis unter Profil → Freigaben → Zugriff über Untis Mobile → Anzeigen.</string>
+    <string name="onboarding_step_1_title">WebUntis öffnen</string>
+    <string name="onboarding_step_1_desc">Im Browser bei deiner Schule anmelden und dein Profil aufrufen.</string>
+    <string name="onboarding_step_2_title">Freigaben aufrufen</string>
+    <string name="onboarding_step_2_desc">Zu Freigaben → Zugriff über Untis Mobile navigieren.</string>
+    <string name="onboarding_step_3_title">QR-Code scannen</string>
+    <string name="onboarding_step_3_desc">Auf „Anzeigen“ tippen und den QR-Code hier scannen.</string>
+    <string name="btn_scan_qr">QR-Code scannen</string>
+    <string name="btn_pick_image">QR-Code aus Bild wählen</string>
+    <string name="btn_manual_input">Manuell eingeben</string>
+    <string name="camera_permission_required">Kamerazugriff wird für das Scannen des QR-Codes benötigt.</string>
+    <string name="btn_open_settings">Einstellungen öffnen</string>
+    <string name="not_a_untis_qr">Das ist kein Untis-QR-Code.</string>
+    <string name="search_schools_label">Schule suchen</string>
+    <string name="search_schools_placeholder">Schulname oder Ort…</string>
+    <string name="manual_server_details">Server &amp; Schulname manuell eingeben</string>
+    <string name="server_host_label">Server</string>
+    <string name="school_name_label">Schulname</string>
+    <string name="username_label">Benutzername</string>
+    <string name="key_label">Schlüssel</string>
+    <string name="btn_paste_text">Text einfügen</string>
+    <string name="btn_continue">Weiter</string>
+    <string name="btn_back">Zurück</string>
+    <string name="confirm_login_title">Anmeldung bestätigen</string>
+    <string name="btn_login">Anmelden</string>
+    <string name="logging_in">Anmeldung läuft…</string>
+    <string name="error_credentials">Benutzer oder Schlüssel falsch.</string>
+    <string name="error_network">Keine Verbindung zum Server.</string>
+    <string name="error_generic">Anmeldung fehlgeschlagen: %1$s</string>
+
+    <!-- Einstellungen screen -->
+    <string name="settings_section_notifications">Benachrichtigungen</string>
+    <string name="settings_watch_enabled">Änderungen überwachen</string>
+    <string name="sound_loud">Laut</string>
+    <string name="sound_silent">Leise</string>
+    <string name="kind_foyer">Foyer</string>
+    <string name="kind_cancelled">Entfall</string>
+    <string name="kind_first_lesson">Später Unterrichtsbeginn</string>
+    <string name="kind_room">Raumänderung</string>
+    <string name="kind_teacher">Vertretung</string>
+    <string name="kind_exam">Klausuren</string>
+    <string name="kind_added">Zusatzstunden</string>
+    <string name="kind_restored">Wieder regulär</string>
+    <string name="settings_section_watch">Überwachung</string>
+    <string name="settings_poll_interval">Prüfintervall</string>
+    <string name="settings_poll_seconds">%1$d s</string>
+    <string name="settings_school_start">Beginn morgens</string>
+    <string name="settings_evening_range">Abends prüfen</string>
+    <string name="settings_foyer_prefix">Foyer-Raumname</string>
+    <string name="settings_battery_exemption">Akku-Optimierung deaktivieren</string>
+    <string name="settings_battery_explainer">Damit die Prüfung jede Minute läuft, zeigt die App während der Schulzeit eine dauerhafte Benachrichtigung.</string>
+    <string name="settings_section_account">Konto</string>
+    <string name="settings_logout">Abmelden</string>
+    <string name="settings_logout_confirm_title">Abmelden?</string>
+    <string name="settings_logout_confirm_text">Abmelden? Die gespeicherten Daten werden gelöscht.</string>
+    <string name="btn_cancel">Abbrechen</string>
+    <string name="settings_section_about">Über</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_github">Quellcode auf GitHub</string>
+    <string name="github_url">https://github.com/omeg4dev/greatuntis</string>
+    <string name="settings_license_label">Lizenz</string>
+    <string name="settings_license">GPL-3.0</string>
+    <string name="btn_ok">OK</string>
+
+    <!-- Widget -->
+    <string name="widget_name">Heute</string>
+    <string name="widget_description">Heute &amp; Ferien-Countdown</string>
+</resources>

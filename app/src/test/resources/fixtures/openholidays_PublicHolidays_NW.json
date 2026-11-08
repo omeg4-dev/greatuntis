@@ -1,0 +1,428 @@
+[
+  {
+    "id": "ac964e18-2d34-497a-a9c5-b8ab065b7238",
+    "startDate": "2025-10-03",
+    "endDate": "2025-10-03",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Tag der Deutschen Einheit"
+      }
+    ],
+    "regionalScope": "National",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "0e5ed383-7890-4f12-b041-65a79aedeb5f",
+    "startDate": "2025-11-01",
+    "endDate": "2025-11-01",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Allerheiligen"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SL",
+        "shortName": "SL"
+      },
+      {
+        "code": "DE-NW",
+        "shortName": "NW"
+      },
+      {
+        "code": "DE-BW",
+        "shortName": "BW"
+      },
+      {
+        "code": "DE-RP",
+        "shortName": "RP"
+      },
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "92b270e3-247f-4f82-b79d-b5ad77a67d95",
+    "startDate": "2025-12-25",
+    "endDate": "2025-12-25",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "1. Weihnachtsfeiertag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "28bf580c-9787-4d67-ab3e-06a5e6597c1c",
+    "startDate": "2025-12-26",
+    "endDate": "2025-12-26",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "2. Weihnachtsfeiertag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "9ac6fd8b-aec4-41f0-916b-f03af58ecdab",
+    "startDate": "2026-01-01",
+    "endDate": "2026-01-01",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Neujahr"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "f80fd9dc-41b4-4203-8fea-2cf36d365fbb",
+    "startDate": "2026-04-03",
+    "endDate": "2026-04-03",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Karfreitag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "8d8ad831-8d60-429f-ad46-7f842c9fe2d9",
+    "startDate": "2026-04-06",
+    "endDate": "2026-04-06",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Ostermontag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "6f661249-94cb-4a54-a063-20dde86ebde6",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-01",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Tag der Arbeit"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "0905ed2a-46a7-4731-87e2-a8c53c42b0e2",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-14",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Christi Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "ce6dcd62-b512-4075-be98-73ffc3dee4db",
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-25",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstmontag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "4030dfd3-7e29-4334-b637-42a9097be309",
+    "startDate": "2026-06-04",
+    "endDate": "2026-06-04",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Fronleichnam"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-HE",
+        "shortName": "HE"
+      },
+      {
+        "code": "DE-SL",
+        "shortName": "SL"
+      },
+      {
+        "code": "DE-NW",
+        "shortName": "NW"
+      },
+      {
+        "code": "DE-BW",
+        "shortName": "BW"
+      },
+      {
+        "code": "DE-RP",
+        "shortName": "RP"
+      },
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "555eaa64-b8f6-44ce-850b-6af0d75555e9",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-03",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Tag der Deutschen Einheit"
+      }
+    ],
+    "regionalScope": "National",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "c359d742-f458-4962-8bf1-44e5d504f6d0",
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-01",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Allerheiligen"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-SL",
+        "shortName": "SL"
+      },
+      {
+        "code": "DE-NW",
+        "shortName": "NW"
+      },
+      {
+        "code": "DE-BW",
+        "shortName": "BW"
+      },
+      {
+        "code": "DE-RP",
+        "shortName": "RP"
+      },
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  },
+  {
+    "id": "b37c8536-925e-455c-9e61-8e2b984a74d1",
+    "startDate": "2026-12-25",
+    "endDate": "2026-12-25",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "1. Weihnachtsfeiertag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "fafc28cf-c8fc-4290-97b0-99904f920d4f",
+    "startDate": "2026-12-26",
+    "endDate": "2026-12-26",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "2. Weihnachtsfeiertag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "a9951b88-fbfa-4634-8b80-39c60abb2a0c",
+    "startDate": "2027-01-01",
+    "endDate": "2027-01-01",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Neujahr"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "f5967e35-9fbb-4cd9-ae3d-622f6cf90028",
+    "startDate": "2027-03-26",
+    "endDate": "2027-03-26",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Karfreitag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "fcd0558e-3e01-4902-b785-d8bd45baba24",
+    "startDate": "2027-03-29",
+    "endDate": "2027-03-29",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Ostermontag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "5dce4648-d6e6-400a-936e-b85edbf85622",
+    "startDate": "2027-05-01",
+    "endDate": "2027-05-01",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Tag der Arbeit"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "889b46cc-0934-44a1-9468-d88f880acc94",
+    "startDate": "2027-05-06",
+    "endDate": "2027-05-06",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Christi Himmelfahrt"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "689daf70-cc0e-44d6-a501-8a17d4a551dc",
+    "startDate": "2027-05-17",
+    "endDate": "2027-05-17",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Pfingstmontag"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": true
+  },
+  {
+    "id": "c1b5e914-3c7d-426d-90b4-1d8a889b02a2",
+    "startDate": "2027-05-27",
+    "endDate": "2027-05-27",
+    "type": "Public",
+    "name": [
+      {
+        "language": "DE",
+        "text": "Fronleichnam"
+      }
+    ],
+    "regionalScope": "Regional",
+    "temporalScope": "FullDay",
+    "nationwide": false,
+    "subdivisions": [
+      {
+        "code": "DE-HE",
+        "shortName": "HE"
+      },
+      {
+        "code": "DE-SL",
+        "shortName": "SL"
+      },
+      {
+        "code": "DE-NW",
+        "shortName": "NW"
+      },
+      {
+        "code": "DE-BW",
+        "shortName": "BW"
+      },
+      {
+        "code": "DE-RP",
+        "shortName": "RP"
+      },
+      {
+        "code": "DE-BY",
+        "shortName": "BY"
+      }
+    ]
+  }
+]

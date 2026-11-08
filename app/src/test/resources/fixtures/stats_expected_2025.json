@@ -1,0 +1,105 @@
+{
+ "heldUnits": 1303,
+ "missedUnits": 65,
+ "missedDays": 13,
+ "missedByCategory": {
+  "excused": 38,
+  "not_counted": 8,
+  "open": 9,
+  "unexcused": 10
+ },
+ "missedBySubject": {
+  "D-GK1": 3,
+  "E-PJK1": 4,
+  "GE-GK2": 2,
+  "IF-GK1": 7,
+  "KR-GK4": 7,
+  "KU-LK1": 10,
+  "M-GK1": 1,
+  "PH-GK4": 7,
+  "PKI-GK1": 5,
+  "SP-LK2": 12,
+  "SW-GK1": 7
+ },
+ "heldBySubject": {
+  "D-GK1": 106,
+  "E-PJK1": 74,
+  "GE-GK2": 110,
+  "IF-GK1": 96,
+  "KR-GK4": 114,
+  "KU-LK1": 161,
+  "Klausur GK PKI/NO+LU": 6,
+  "Klausur LK KU HS + M RE": 4,
+  "Klausur LK KU/HS + M/RE": 12,
+  "Klausur Q1 GK PKI/LU+ST": 6,
+  "M-GK1": 97,
+  "PH-GK4": 117,
+  "PKI-GK1": 106,
+  "SP-LK2": 183,
+  "SW-GK1": 111
+ },
+ "missedByWeekday": {
+  "1": 23,
+  "2": 20,
+  "3": 6,
+  "4": 8,
+  "5": 8
+ },
+ "missedByPeriod": {
+  "1": 8,
+  "2": 10,
+  "3": 10,
+  "4": 9,
+  "5": 9,
+  "6": 3,
+  "7": 5,
+  "8": 8,
+  "9": 3
+ },
+ "missedByWeek": {
+  "2025-08-25": 2,
+  "2025-09-15": 21,
+  "2025-09-22": 2,
+  "2025-11-10": 1,
+  "2025-12-01": 6,
+  "2026-02-09": 9,
+  "2026-03-23": 2,
+  "2026-04-20": 8,
+  "2026-05-11": 7,
+  "2026-06-15": 7
+ },
+ "absenceCount": 11,
+ "openAbsences": 2,
+ "lateCount": 3,
+ "lateMinutes": 20,
+ "lateByWeekday": {
+  "2": 1,
+  "3": 2
+ },
+ "cancelledBySubject": {
+  "D-GK1": 11,
+  "E-PJK1": 2,
+  "GE-GK2": 10,
+  "IF-GK1": 10,
+  "KR-GK4": 9,
+  "KU-LK1": 34,
+  "M-GK1": 17,
+  "PH-GK4": 9,
+  "PKI-GK1": 10,
+  "SP-LK2": 17,
+  "SW-GK1": 6
+ },
+ "foyerBySubject": {
+  "D-GK1": 14,
+  "E-PJK1": 6,
+  "GE-GK2": 16,
+  "IF-GK1": 11,
+  "KR-GK4": 13,
+  "KU-LK1": 14,
+  "M-GK1": 24,
+  "PH-GK4": 19,
+  "PKI-GK1": 5,
+  "SP-LK2": 24,
+  "SW-GK1": 19
+ }
+}

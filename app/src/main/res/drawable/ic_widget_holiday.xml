@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Beach access / umbrella icon -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M13.13,14.56l1.43,-1.43 6.44,6.44L19.57,21L13.13,14.56zM17.42,8.83l2.86,-2.86c-3.95,-3.95 -10.35,-3.96 -14.3,0l2.86,2.86c2.37,-2.37 6.21,-2.37 8.58,0zM14.57,11.68l2.86,-2.86c-2.38,-2.38 -6.22,-2.38 -8.6,0l2.86,2.86c0.8,-0.8 2.08,-0.8 2.88,0z" />
+</vector>

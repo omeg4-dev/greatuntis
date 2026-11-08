@@ -1,0 +1,665 @@
+{
+ "format": 6,
+ "days": [
+  {
+   "date": "2026-11-06",
+   "resourceType": "STUDENT",
+   "resource": {
+    "id": 1,
+    "shortName": "student",
+    "longName": "Student",
+    "displayName": ""
+   },
+   "status": "REGULAR",
+   "dayEntries": [],
+   "gridEntries": [
+    {
+     "ids": [
+      3711525,
+      3711528
+     ],
+     "duration": {
+      "start": "2026-11-06T08:00",
+      "end": "2026-11-06T09:35"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 1,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "D-GK1",
+        "longName": "Deutsch GK",
+        "displayName": "D-GK1",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T05",
+        "longName": "Lehrkraft T05",
+        "displayName": "T05 (Lehrkraft T05)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R125",
+        "longName": "Raum R125",
+        "displayName": "R125",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3671096
+     ],
+     "duration": {
+      "start": "2026-11-06T09:55",
+      "end": "2026-11-06T10:40"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "CHANGED",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 2,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "GE-GK2",
+        "longName": "Geschichte GK",
+        "displayName": "GE-GK2",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T09",
+        "longName": "Lehrkraft T09",
+        "displayName": "T09 (Lehrkraft T09)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "ADDED",
+        "shortName": "R120",
+        "longName": "Raum R120",
+        "displayName": "R120",
+        "displayNameLabel": "NAME"
+       },
+       "removed": {
+        "type": "ROOM",
+        "status": "REMOVED",
+        "shortName": "R123",
+        "longName": "Raum R123",
+        "displayName": "R123",
+        "displayNameLabel": "NAME"
+       }
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3702360
+     ],
+     "duration": {
+      "start": "2026-11-06T10:45",
+      "end": "2026-11-06T11:30"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 3,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "IF-GK1",
+        "longName": "Informatik GK",
+        "displayName": "IF-GK1",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T01",
+        "longName": "Lehrkraft T01",
+        "displayName": "T01 (Lehrkraft T01)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R107",
+        "longName": "Raum R107",
+        "displayName": "R107",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3651158,
+      3651161
+     ],
+     "duration": {
+      "start": "2026-11-06T11:45",
+      "end": "2026-11-06T13:20"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 4,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "PKI-GK2",
+        "longName": "PKI GK",
+        "displayName": "PKI-GK2",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T131",
+        "longName": "Lehrkraft T131",
+        "displayName": "T131 (Lehrkraft T131)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R113",
+        "longName": "Raum R113",
+        "displayName": "R113",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3853345,
+      3853348
+     ],
+     "duration": {
+      "start": "2026-11-06T14:15",
+      "end": "2026-11-06T15:45"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 5,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "KU-LK1",
+        "longName": "Kunst LK",
+        "displayName": "KU-LK1",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T06",
+        "longName": "Lehrkraft T06",
+        "displayName": "T06 (Lehrkraft T06)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R119",
+        "longName": "Raum R119",
+        "displayName": "R119",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    }
+   ],
+   "backEntries": []
+  },
+  {
+   "date": "2026-11-07",
+   "resourceType": "STUDENT",
+   "resource": {
+    "id": 1,
+    "shortName": "student",
+    "longName": "Student",
+    "displayName": ""
+   },
+   "status": "NO_DATA",
+   "dayEntries": [],
+   "gridEntries": [],
+   "backEntries": []
+  },
+  {
+   "date": "2026-11-08",
+   "resourceType": "STUDENT",
+   "resource": {
+    "id": 1,
+    "shortName": "student",
+    "longName": "Student",
+    "displayName": ""
+   },
+   "status": "NO_DATA",
+   "dayEntries": [],
+   "gridEntries": [],
+   "backEntries": []
+  },
+  {
+   "date": "2026-11-09",
+   "resourceType": "STUDENT",
+   "resource": {
+    "id": 1,
+    "shortName": "student",
+    "longName": "Student",
+    "displayName": ""
+   },
+   "status": "REGULAR",
+   "dayEntries": [],
+   "gridEntries": [
+    {
+     "ids": [
+      3702363,
+      3702366
+     ],
+     "duration": {
+      "start": "2026-11-09T08:00",
+      "end": "2026-11-09T09:35"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 1,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "IF-GK1",
+        "longName": "Informatik GK",
+        "displayName": "IF-GK1",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T01",
+        "longName": "Lehrkraft T01",
+        "displayName": "T01 (Lehrkraft T01)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R109",
+        "longName": "Raum R109",
+        "displayName": "R109",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3644991,
+      3644994
+     ],
+     "duration": {
+      "start": "2026-11-09T09:55",
+      "end": "2026-11-09T11:30"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "CHANGED",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 2,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [
+      "NOTES"
+     ],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "PH-GK4",
+        "longName": "Physik GK",
+        "displayName": "PH-GK4",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": null,
+       "removed": {
+        "type": "TEACHER",
+        "status": "REMOVED",
+        "shortName": "T02",
+        "longName": "Lehrkraft T02",
+        "displayName": "T02 (Lehrkraft T02)",
+        "displayNameLabel": "NAME_LONGNAME"
+       }
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "ADDED",
+        "shortName": "Foyer",
+        "longName": "Foyer",
+        "displayName": "Foyer",
+        "displayNameLabel": "NAME"
+       },
+       "removed": {
+        "type": "ROOM",
+        "status": "REMOVED",
+        "shortName": "R116",
+        "longName": "Raum R116",
+        "displayName": "R116",
+        "displayNameLabel": "NAME"
+       }
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [
+      {
+       "type": "SUBSTITUTION_TEXT",
+       "text": "eigenverantwortliches Arbeiten"
+      }
+     ],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "eigenverantwortliches Arbeiten",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3671618,
+      3671621
+     ],
+     "duration": {
+      "start": "2026-11-09T13:30",
+      "end": "2026-11-09T15:00"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 3,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "SW-GK1",
+        "longName": "Sozialwissenschaften GK",
+        "displayName": "SW-GK1",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T04",
+        "longName": "Lehrkraft T04",
+        "displayName": "T04 (Lehrkraft T04)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R101",
+        "longName": "Raum R101",
+        "displayName": "R101",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    }
+   ],
+   "backEntries": []
+  },
+  {
+   "date": "2026-11-10",
+   "resourceType": "STUDENT",
+   "resource": {
+    "id": 1,
+    "shortName": "student",
+    "longName": "Student",
+    "displayName": ""
+   },
+   "status": "NOT_ALLOWED",
+   "dayEntries": [],
+   "gridEntries": [],
+   "backEntries": []
+  }
+ ],
+ "errors": []
+}

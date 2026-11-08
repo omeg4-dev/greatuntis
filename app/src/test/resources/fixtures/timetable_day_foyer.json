@@ -1,0 +1,498 @@
+{
+ "format": 6,
+ "days": [
+  {
+   "date": "2026-11-03",
+   "resourceType": "STUDENT",
+   "resource": {
+    "id": 1,
+    "shortName": "student",
+    "longName": "Student",
+    "displayName": ""
+   },
+   "status": "REGULAR",
+   "dayEntries": [],
+   "gridEntries": [
+    {
+     "ids": [
+      3637269,
+      3637272
+     ],
+     "duration": {
+      "start": "2026-11-03T08:00",
+      "end": "2026-11-03T09:35"
+     },
+     "type": "EXAM",
+     "status": "CHANGED",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 1,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [
+      "NOTES"
+     ],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "KR-GK4",
+        "longName": "Kath. Religion GK",
+        "displayName": "KR-GK4",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T05",
+        "longName": "Lehrkraft T05",
+        "displayName": "T05 (Lehrkraft T05)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "ADDED",
+        "shortName": "R114",
+        "longName": "Raum R114",
+        "displayName": "R114",
+        "displayNameLabel": "NAME"
+       },
+       "removed": {
+        "type": "ROOM",
+        "status": "REMOVED",
+        "shortName": "R115",
+        "longName": "Raum R115",
+        "displayName": "R115",
+        "displayNameLabel": "NAME"
+       }
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [
+      {
+       "type": "SUBSTITUTION_TEXT",
+       "text": "eigenverantwortliches Arbeiten"
+      },
+      {
+       "type": "LESSON_INFO",
+       "text": "Klausur KR-GK4/610"
+      }
+     ],
+     "lessonText": "",
+     "lessonInfo": "Klausur KR-GK4/610",
+     "substitutionText": "eigenverantwortliches Arbeiten",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3907084
+     ],
+     "duration": {
+      "start": "2026-11-03T09:55",
+      "end": "2026-11-03T10:40"
+     },
+     "type": "EXAM",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 500,
+     "layoutGroup": 2,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [
+      "NOTES"
+     ],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "KR-GK4",
+        "longName": "Kath. Religion GK",
+        "displayName": "KR-GK4",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T95",
+        "longName": "Lehrkraft T95",
+        "displayName": "T95 (Lehrkraft T95)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R114",
+        "longName": "Raum R114",
+        "displayName": "R114",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [
+      {
+       "type": "LESSON_INFO",
+       "text": "Klausur KR-GK4/610"
+      }
+     ],
+     "lessonText": "",
+     "lessonInfo": "Klausur KR-GK4/610",
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3666500,
+      3666503
+     ],
+     "duration": {
+      "start": "2026-11-03T09:55",
+      "end": "2026-11-03T11:30"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "CANCELLED",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 500,
+     "layoutWidth": 500,
+     "layoutGroup": 2,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [
+      "NOTES"
+     ],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "KU-LK1",
+        "longName": "Kunst LK",
+        "displayName": "KU-LK1",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T06",
+        "longName": "Lehrkraft T06",
+        "displayName": "T06 (Lehrkraft T06)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R118",
+        "longName": "Raum R118",
+        "displayName": "R118",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [
+      {
+       "type": "SUBSTITUTION_TEXT",
+       "text": "eigenverantwortliches Arbeiten"
+      }
+     ],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "eigenverantwortliches Arbeiten",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3907087
+     ],
+     "duration": {
+      "start": "2026-11-03T10:45",
+      "end": "2026-11-03T11:30"
+     },
+     "type": "EXAM",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 500,
+     "layoutGroup": 2,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [
+      "NOTES"
+     ],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "KR-GK4",
+        "longName": "Kath. Religion GK",
+        "displayName": "KR-GK4",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T05",
+        "longName": "Lehrkraft T05",
+        "displayName": "T05 (Lehrkraft T05)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R114",
+        "longName": "Raum R114",
+        "displayName": "R114",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [
+      {
+       "type": "LESSON_INFO",
+       "text": "Klausur KR-GK4/610"
+      }
+     ],
+     "lessonText": "",
+     "lessonInfo": "Klausur KR-GK4/610",
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3695844,
+      3695847
+     ],
+     "duration": {
+      "start": "2026-11-03T11:45",
+      "end": "2026-11-03T13:20"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "CHANGED",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 3,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [
+      "NOTES"
+     ],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "SP-LK2",
+        "longName": "Sport LK",
+        "displayName": "SP-LK2",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": null,
+       "removed": {
+        "type": "TEACHER",
+        "status": "REMOVED",
+        "shortName": "T07",
+        "longName": "Lehrkraft T07",
+        "displayName": "T07 (Lehrkraft T07)",
+        "displayNameLabel": "NAME_LONGNAME"
+       }
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "ADDED",
+        "shortName": "Foyer",
+        "longName": "Foyer",
+        "displayName": "Foyer",
+        "displayNameLabel": "NAME"
+       },
+       "removed": {
+        "type": "ROOM",
+        "status": "REMOVED",
+        "shortName": "R106",
+        "longName": "Raum R106",
+        "displayName": "R106",
+        "displayNameLabel": "NAME"
+       }
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [
+      {
+       "type": "SUBSTITUTION_TEXT",
+       "text": "eigenverantwortliches Arbeiten"
+      }
+     ],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "eigenverantwortliches Arbeiten",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    },
+    {
+     "ids": [
+      3723925,
+      3723928
+     ],
+     "duration": {
+      "start": "2026-11-03T14:15",
+      "end": "2026-11-03T15:45"
+     },
+     "type": "NORMAL_TEACHING_PERIOD",
+     "status": "REGULAR",
+     "statusDetail": null,
+     "name": null,
+     "layoutStartPosition": 0,
+     "layoutWidth": 1000,
+     "layoutGroup": 4,
+     "color": "bfc8cf",
+     "notesAll": "",
+     "icons": [],
+     "position1": [
+      {
+       "current": {
+        "type": "SUBJECT",
+        "status": "REGULAR",
+        "shortName": "EK-ZK1",
+        "longName": "Erdkunde ZK",
+        "displayName": "EK-ZK1",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position2": [
+      {
+       "current": {
+        "type": "TEACHER",
+        "status": "REGULAR",
+        "shortName": "T46",
+        "longName": "Lehrkraft T46",
+        "displayName": "T46 (Lehrkraft T46)",
+        "displayNameLabel": "NAME_LONGNAME"
+       },
+       "removed": null
+      }
+     ],
+     "position3": [
+      {
+       "current": {
+        "type": "ROOM",
+        "status": "REGULAR",
+        "shortName": "R121",
+        "longName": "Raum R121",
+        "displayName": "R121",
+        "displayNameLabel": "NAME"
+       },
+       "removed": null
+      }
+     ],
+     "position4": null,
+     "position5": null,
+     "position6": null,
+     "position7": null,
+     "texts": [],
+     "lessonText": "",
+     "lessonInfo": null,
+     "substitutionText": "",
+     "userName": null,
+     "moved": null,
+     "durationTotal": null,
+     "link": null
+    }
+   ],
+   "backEntries": []
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,45 @@
+{
+ "result": {
+  "size": 3,
+  "schools": [
+   {
+    "server": "demo.webuntis.com",
+    "useMobileServiceUrlAndroid": false,
+    "address": "Musterstraße 1, 12345 Beispielstadt",
+    "displayName": "Musterschule Beispielstadt",
+    "loginName": "demo-schule",
+    "schoolId": 1234567,
+    "useMobileServiceUrlIos": false,
+    "serverUrl": "https://demo.webuntis.com/WebUntis/?school=demo-schule",
+    "tenantId": "1234567",
+    "mobileServiceUrl": null
+   },
+   {
+    "server": "gym-nordstadt.webuntis.com",
+    "useMobileServiceUrlAndroid": false,
+    "address": "Nordstraße 10, 12345 Nordstadt",
+    "displayName": "Gymnasium Nordstadt",
+    "loginName": "gym-nordstadt",
+    "schoolId": 2345678,
+    "useMobileServiceUrlIos": false,
+    "serverUrl": "https://gym-nordstadt.webuntis.com/WebUntis/?school=gym-nordstadt",
+    "tenantId": "2345678",
+    "mobileServiceUrl": null
+   },
+   {
+    "server": "ge-sued.webuntis.com",
+    "useMobileServiceUrlAndroid": false,
+    "address": "Südstraße 20, 12345 Südstadt",
+    "displayName": "Gesamtschule Süd",
+    "loginName": "ge-sued",
+    "schoolId": 3456789,
+    "useMobileServiceUrlIos": false,
+    "serverUrl": "https://ge-sued.webuntis.com/WebUntis/?school=ge-sued",
+    "tenantId": "3456789",
+    "mobileServiceUrl": null
+   }
+  ]
+ },
+ "id": "1",
+ "jsonrpc": "2.0"
+}

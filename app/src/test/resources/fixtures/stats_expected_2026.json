@@ -1,0 +1,89 @@
+{
+ "heldUnits": 224,
+ "missedUnits": 50,
+ "missedDays": 11,
+ "missedByCategory": {
+  "excused": 31,
+  "not_counted": 8,
+  "open": 8,
+  "unexcused": 3
+ },
+ "missedBySubject": {
+  "D-GK1": 6,
+  "GE-GK2": 7,
+  "IF-GK1": 5,
+  "KR-GK4": 5,
+  "KU-LK1": 3,
+  "PH-GK4": 10,
+  "PKI-GK2": 4,
+  "SP-LK2": 2,
+  "SW-GK1": 8
+ },
+ "heldBySubject": {
+  "D-GK1": 21,
+  "EK-ZK1": 14,
+  "GE-GK2": 17,
+  "IF-GK1": 22,
+  "KR-GK4": 19,
+  "KU-LK1": 29,
+  "Klausur GK PKI/ST+SÖ": 4,
+  "Klausur LK KU/HS+ LK M/RE": 5,
+  "PH-GK4": 21,
+  "PKI-GK2": 17,
+  "SP-LK2": 32,
+  "SW-GK1": 23
+ },
+ "missedByWeekday": {
+  "1": 14,
+  "2": 2,
+  "3": 21,
+  "4": 6,
+  "5": 7
+ },
+ "missedByPeriod": {
+  "1": 5,
+  "2": 8,
+  "3": 8,
+  "4": 8,
+  "5": 7,
+  "6": 1,
+  "7": 6,
+  "8": 7
+ },
+ "missedByWeek": {
+  "2026-09-07": 8,
+  "2026-09-14": 1,
+  "2026-09-21": 18,
+  "2026-10-05": 6,
+  "2026-10-12": 9,
+  "2026-11-02": 8
+ },
+ "absenceCount": 11,
+ "openAbsences": 2,
+ "lateCount": 3,
+ "lateMinutes": 14,
+ "lateByWeekday": {
+  "1": 1,
+  "4": 2
+ },
+ "cancelledBySubject": {
+  "D-GK1": 3,
+  "EK-ZK1": 2,
+  "GE-GK2": 7,
+  "IF-GK1": 3,
+  "KR-GK4": 5,
+  "KU-LK1": 9,
+  "PH-GK4": 5,
+  "PKI-GK2": 7,
+  "SP-LK2": 12,
+  "SW-GK1": 3
+ },
+ "foyerBySubject": {
+  "EK-ZK1": 2,
+  "IF-GK1": 2,
+  "KU-LK1": 2,
+  "PH-GK4": 3,
+  "SP-LK2": 2,
+  "SW-GK1": 2
+ }
+}

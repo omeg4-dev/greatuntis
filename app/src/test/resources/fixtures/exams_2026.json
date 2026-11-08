@@ -1,0 +1,184 @@
+{
+ "type": "STUDENT",
+ "id": 19897,
+ "exams": [
+  {
+   "id": 11982,
+   "examType": "Klausur (Sek. II)",
+   "startDateTime": "2026-10-06T08:00Z",
+   "endDateTime": "2026-10-06T12:30Z",
+   "departmentId": 0,
+   "subjectId": 0,
+   "klasseIds": [
+    1246
+   ],
+   "roomIds": [
+    81,
+    81,
+    81,
+    81,
+    81
+   ],
+   "teacherIds": [],
+   "invigilators": [
+    {
+     "id": 134,
+     "startTime": "T08:00",
+     "endTime": "T08:45"
+    },
+    {
+     "id": 134,
+     "startTime": "T08:50",
+     "endTime": "T09:35"
+    },
+    {
+     "id": 168,
+     "startTime": "T09:55",
+     "endTime": "T10:40"
+    },
+    {
+     "id": 168,
+     "startTime": "T10:45",
+     "endTime": "T11:30"
+    },
+    {
+     "id": 102,
+     "startTime": "T11:45",
+     "endTime": "T12:30"
+    }
+   ],
+   "name": "KU-LK1/609, M-LK1/609",
+   "text": "Klausur LK KU/HS+ LK M/RE"
+  },
+  {
+   "id": 11985,
+   "examType": "Klausur (Sek. II)",
+   "startDateTime": "2026-10-09T09:55Z",
+   "endDateTime": "2026-10-09T13:20Z",
+   "departmentId": 0,
+   "subjectId": 0,
+   "klasseIds": [
+    1246
+   ],
+   "roomIds": [
+    50,
+    50,
+    50,
+    50
+   ],
+   "teacherIds": [],
+   "invigilators": [
+    {
+     "id": 128,
+     "startTime": "T10:45",
+     "endTime": "T11:30"
+    },
+    {
+     "id": 176,
+     "startTime": "T11:45",
+     "endTime": "T12:30"
+    },
+    {
+     "id": 27,
+     "startTime": "T09:55",
+     "endTime": "T10:40"
+    },
+    {
+     "id": 176,
+     "startTime": "T12:35",
+     "endTime": "T13:20"
+    }
+   ],
+   "name": "PKI-GK3/608, PKI-GK2/603",
+   "text": "Klausur GK PKI/ST+SÖ"
+  },
+  {
+   "id": 12043,
+   "examType": "Klausur (Sek. II)",
+   "startDateTime": "2026-10-15T08:50Z",
+   "endDateTime": "2026-10-15T12:30Z",
+   "departmentId": 0,
+   "subjectId": 813,
+   "klasseIds": [
+    1246
+   ],
+   "roomIds": [
+    83,
+    83,
+    83,
+    83
+   ],
+   "teacherIds": [
+    149
+   ],
+   "invigilators": [
+    {
+     "id": 124,
+     "startTime": "T08:50",
+     "endTime": "T09:35"
+    },
+    {
+     "id": 149,
+     "startTime": "T09:55",
+     "endTime": "T10:40"
+    },
+    {
+     "id": 149,
+     "startTime": "T11:45",
+     "endTime": "T12:30"
+    },
+    {
+     "id": 98,
+     "startTime": "T10:45",
+     "endTime": "T11:30"
+    }
+   ],
+   "name": "SP-LK2/604",
+   "text": "Klausur LK SP/BZ"
+  },
+  {
+   "id": 12094,
+   "examType": "Klausur (Sek. II)",
+   "startDateTime": "2026-11-03T08:00Z",
+   "endDateTime": "2026-11-03T11:30Z",
+   "departmentId": 0,
+   "subjectId": 400,
+   "klasseIds": [
+    1246
+   ],
+   "roomIds": [
+    65,
+    65,
+    65,
+    65
+   ],
+   "teacherIds": [
+    45
+   ],
+   "invigilators": [
+    {
+     "id": 45,
+     "startTime": "T08:00",
+     "endTime": "T08:45"
+    },
+    {
+     "id": 45,
+     "startTime": "T08:50",
+     "endTime": "T09:35"
+    },
+    {
+     "id": 93,
+     "startTime": "T09:55",
+     "endTime": "T10:40"
+    },
+    {
+     "id": 45,
+     "startTime": "T10:45",
+     "endTime": "T11:30"
+    }
+   ],
+   "name": "KR-GK4/610",
+   "text": "Klausur GK KR/GS"
+  }
+ ]
+}

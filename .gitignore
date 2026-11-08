@@ -1,0 +1,14 @@
+.gradle/
+.gradle-home/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.kotlin/
+/dist/
+/tools/out/
+/tools/__pycache__/
+*.jks
+keystore.properties
+account.json
