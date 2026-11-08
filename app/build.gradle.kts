@@ -13,8 +13,8 @@ android {
         applicationId = "io.github.omeg4dev.greatuntis"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.2.0"
+        versionCode = 3
+        versionName = "0.2.1"
         buildConfigField("String", "RELEASE_REPO", "\"omeg4-dev/greatuntis\"")
         buildConfigField("boolean", "UPDATER_ENABLED", "true")
     }
