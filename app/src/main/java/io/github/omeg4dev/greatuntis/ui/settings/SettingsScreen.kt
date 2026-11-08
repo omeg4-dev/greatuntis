@@ -84,6 +84,8 @@ fun SettingsScreen(
     onRequestBatteryExemption: () -> Unit,
     onLogout: () -> Unit,
     updateSection: @Composable () -> Unit = {},
+    /** False when [updateSection] already shows the app version. */
+    showVersionRow: Boolean = true,
     modifier: Modifier = Modifier,
 ) {
     val context = LocalContext.current
@@ -328,15 +330,17 @@ fun SettingsScreen(
                 // Clearly marked slot for the updater added later
                 updateSection()
 
-                ListItem(
-                    headlineContent = { Text(stringResource(R.string.settings_version)) },
-                    supportingContent = { Text(appVersion.ifEmpty { "0.1.0" }) },
-                    colors = transparentItemColors,
-                )
-                HorizontalDivider(
-                    modifier = Modifier.padding(horizontal = 16.dp),
-                    color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.2f),
-                )
+                if (showVersionRow) {
+                    ListItem(
+                        headlineContent = { Text(stringResource(R.string.settings_version)) },
+                        supportingContent = { Text(appVersion.ifEmpty { "0.1.0" }) },
+                        colors = transparentItemColors,
+                    )
+                    HorizontalDivider(
+                        modifier = Modifier.padding(horizontal = 16.dp),
+                        color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.2f),
+                    )
+                }
                 ListItem(
                     headlineContent = { Text(stringResource(R.string.settings_github)) },
                     supportingContent = { Text(stringResource(R.string.github_url)) },

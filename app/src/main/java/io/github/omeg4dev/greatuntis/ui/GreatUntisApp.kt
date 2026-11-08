@@ -189,6 +189,7 @@ fun GreatUntisApp(
                             onUpdateSettings = { transform -> viewModel.updateSettings(transform) },
                             onRequestBatteryExemption = deps.onRequestBatteryExemption,
                             onLogout = { viewModel.logout() },
+                            showVersionRow = deps.updateController == null,
                             updateSection = {
                                 deps.updateController?.let { io.github.omeg4dev.greatuntis.update.ui.UpdateSection(it) }
                             },
